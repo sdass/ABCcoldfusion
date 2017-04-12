@@ -3,9 +3,9 @@
 	<head>
 		<title> 1st cfm file </title>
 
-	</head>									
+	</head>
 	<body>
-		<cfset firstName = "Shawn"> 
+		<cfset firstName = "Shawn">
 
 		<br>
 		Hello <cfoutput>#firstName#</cfoutput>! <br>
@@ -16,7 +16,7 @@
 		<cfelse>
 		  the world to see.
 		</cfif>
-		<cflog text="This log #firstName# to output is blah blah ">
+		<cflog text="This in server log #firstName# to output is blah blah ">
 
 	<body>
 </html>

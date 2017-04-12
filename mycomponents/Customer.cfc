@@ -15,7 +15,7 @@
 	}
 
 	function set_name(name){
-			WriteLog(" ^^^^^^^2");
+			WriteLog(" ^^^^^^^2"); //goes to console
 		WriteLog(" 2This log on the server args.count=" & ArrayLen(arguments));
 		attributes.users.name = arguments.name;
 		return attributes.users.name;
