@@ -27,3 +27,10 @@ http://www.adobe.com/devnet/coldfusion/articles/setup_dev.html
 
 
 Application.cfm http://cftutorial.blogspot.com/
+------------------------------------------
+on admin url http://localhost:8500/CFIDE/administrator/index.cfm admin/qq...
+mySqlLocal datasource creaed following 2nd post on http://stackoverflow.com/questions/10722821/location-of-coldfusion-connection-string-settings
+mysql java driver [one of the two mysql-connector-java-5.1.21.jar and com.mysql.jdbc_5.1.5.jar] saved under C:\ColdFusion2016\cfusion\wwwroot\WEB-INF\lib
+Then use <cfquery> and <cfdump> to display resulset. Works.
+
+-----------------------------------------------------------

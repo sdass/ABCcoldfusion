@@ -29,7 +29,7 @@
 	myown2 = CreateObject("component", "myOwn");
 	myown2.set_name("Raddis");
 	writeDump(myown2); // same as <cfdump>
-	writeDump(fruits);
+	//writeDump(fruits); works
 	the_name = myown2.get_name();
 	WriteOutput("<br>to the webpage get_name: " & the_name);
 
